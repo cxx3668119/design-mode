@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    *P {
+      margin: 0;
+      padding: 0;
+    }
+
+    div.tip {
+      width: 500px;
+      height: 300px;
+      border: 1px solid #333;
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      box-sizing: border-box;
+    }
+
+    header {
+      height: 40px;
+      background-color: skyblue;
+      font-size: 20px;
+      line-height: 40px;
+      padding: 10px;
+    }
+
+    header span {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      float: right;
+      margin-right: 20px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+
+    .content {
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    footer {
+      height: 58px;
+      background-color: skyblue;
+      position: relative;
+    }
+
+    footer button {
+      width: 80px;
+      height: 40px;
+    }
+
+    .btn1 {
+      position: absolute;
+      top: 5px;
+      left: 55%;
+    }
+
+    .btn2 {
+      position: absolute;
+      top: 5px;
+      left: 76%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="tip">
+    <header>标题<span>X</span></header>
+
+    <div class="content">
+      <p>提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容提示内容</p>
+    </div>
+
+    <footer>
+      <button class="btn1">确认</button>
+      <button class="btn2">取消</button>
+    </footer>
+  </div>
+
+  <script>
+    /*
+      自定义弹出层
+    */
+  </script>
+</body>
+
+</html>
